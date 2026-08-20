@@ -30,7 +30,7 @@ services:
       DB_PASSWORD: postgres
       DB_NAME: task_api
       DB_SSL_MODE: disable
-      JWT_SECRET: your-super-secret-key-change-in-production
+      JWT_SECRET_KEY: your-super-secret-key-change-in-production
     ports:
       - "8080:8080"
     depends_on:
